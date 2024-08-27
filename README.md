@@ -72,7 +72,6 @@ if ack:
     c.close()
 ```
 
-
 SERVER
 
 ```
@@ -83,6 +82,7 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
+
 ## Output:
 ![Screenshot 2024-08-27 201833](https://github.com/user-attachments/assets/4378d427-08b3-45b6-84d7-0f2c3f9f8da0)
 

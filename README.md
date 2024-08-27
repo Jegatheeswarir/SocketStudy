@@ -72,7 +72,9 @@ if ack:
     c.close()
 ```
 
+
 SERVER
+
 ```
 import socket
 s=socket.socket()
